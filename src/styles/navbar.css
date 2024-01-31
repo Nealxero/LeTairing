@@ -1,0 +1,76 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(255, 157, 0);
+    background: radial-gradient(
+      circle at 3% 75%,
+      rgb(255, 222, 191) 50%,
+      rgba(255, 216, 181, 0.844) 75%
+    );
+  
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .navbar-brand {
+    font-family: Circular, Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 115, 0);
+  }
+  
+  .nav-link {
+    color: rgb(255, 89, 0);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .nav-link:hover {
+    color: rgb(255, 94, 0);
+    font-weight: bolder;
+  }
+  
+  .nav-item {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    padding-right: 15px;
+  }
+  
+  .navbar-toggler {
+    background-color: rgb(131, 131, 131);
+    
+  }
+  
+  .navbar-brand:hover {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Mobile */
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      background: radial-gradient(
+        circle at 3% 75%,
+        rgb(255, 224, 195) 50%,
+      rgba(255, 214, 179, 0.844) 75%
+      );
+    }
+    .navbar-brand {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .nav-link {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  
