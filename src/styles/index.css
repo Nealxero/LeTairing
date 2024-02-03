@@ -10,7 +10,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-* {
+*{
     background-color: rgb(255, 224, 195);
     color: brown;
 }
