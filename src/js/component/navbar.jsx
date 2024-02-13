@@ -48,11 +48,7 @@ export const Navbar = () => {
                 About 
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#Projects2" onClick={closeMenu}>
-                Projects
-              </a>
-            </li>
+           
             <li className="nav-item">
               <a className="nav-link" href="#Skills2" onClick={closeMenu}>
                 Skills

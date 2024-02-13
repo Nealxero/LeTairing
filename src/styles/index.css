@@ -9,9 +9,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+* {
+  width: auto;
+  height: 100%;
+}
 #mainBody {
   background-color: rgb(255, 224, 195);
   color: brown;
-  width: auto;
+ width: auto;
   height: auto;
 }
