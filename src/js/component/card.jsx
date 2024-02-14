@@ -54,7 +54,7 @@ export const Carousel = ({ cards }) => {
         <Card.Img
           variant="top"
           src={cards[currentIndex].image}
-          style={{ height: "contain", objectFit: "contain" }}
+          style={{ height: "contain", objectFit: "contain", }}
           onClick={() => openFullSizeImage(cards[currentIndex].image)} // Open full-size image on click
         />{" "}
         {/* Adjust the height */}
