@@ -16,7 +16,7 @@ export const Navbar = () => {
         />
       </a>
 
-      <div class="menu">
+      <div className="menu">
         <ul></ul>
         <ul>
           <li>

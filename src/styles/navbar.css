@@ -48,6 +48,7 @@
 /* Burger menu */
 .menu-container span {
   display: block;
+  overflow-x:hidden;
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
