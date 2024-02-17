@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+
 import Card from "react-bootstrap/Card";
 import "../../styles/card.css";
-import cafe from "../../img/cafe.jpg";
+
 import { useState } from "react";
 
 export const Carousel = ({ cards }) => {
@@ -25,7 +25,7 @@ export const Carousel = ({ cards }) => {
   };
 
   return (
-    <div style={{ maxWidth: "400px", margin: "0 auto", position: "relative" }}>
+    <div id="CardCont">
       {/* Adjust the max width and margin */}
       <Card
         style={{

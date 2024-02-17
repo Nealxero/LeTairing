@@ -27,6 +27,6 @@
   background-repeat: repeat;
   color: rgb(255, 68, 0);
   overflow-x: hidden;
- 
+ height: 100vh
   ;
 }
