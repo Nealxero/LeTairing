@@ -9,7 +9,7 @@ export const Navbar = () => {
       <span></span>
       <span></span>
 
-      <a href="#" className="menu-logo">
+      <a href="/" className="menu-logo">
         <img
           src="https://wweb.dev/resources/navigation-generator/logo-placeholder.png"
           alt="My Awesome Website"
@@ -20,13 +20,13 @@ export const Navbar = () => {
         <ul></ul>
         <ul>
           <li>
-            <a href="">inicio</a>
+            <a href="/">inicio</a>
           </li>
           <li>
-            <a href="">mi trabajo</a>
+            <a href="/Galeria">mi trabajo</a>
           </li>
           <li>
-            <a href="">contactame</a>
+            <a href="/Contacto">contactame</a>
           </li>
         </ul>
       </div>

@@ -1,10 +1,10 @@
-import react from "react";
+import React from "react";
 
-const Contact = () => {
+export const Contact = () => {
 
 return (
-    <div>
-        
+    <div className="text-center">
+        <h1> Contacta Conmigo </h1>
     </div>
 )
 }

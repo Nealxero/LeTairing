@@ -25,56 +25,59 @@ export const Carousel = ({ cards }) => {
   };
 
   return (
-    <div id="CardCont">
-      {/* Adjust the max width and margin */}
-      <Card
-        style={{
-          width: "100%",
-          position: "relative",
-          border: "5px solid brown",
-        }}
-      >
-        {/* Set the width to 100% */}
-        <button
+    <div>
+      <h1 className="text-center mt-5">LetTairing</h1>
+      <div id="CardCont">
+        {/* Adjust the max width and margin */}
+        <Card
           style={{
-            position: "absolute",
-            top: "50%",
-            left: "0px",
-            transform: "translateY(-50%)",
-            border: "none",
-            backgroundColor: "transparent",
-            fontSize: "50px",
-            color: "white", // Change the color to orange
-            cursor: "pointer",
+            width: "100%",
+            position: "relative",
+            border: "5px solid brown",
           }}
-          onClick={handlePrev}
         >
-          {"<"}
-        </button>
-        <Card.Img
-          variant="top"
-          src={cards[currentIndex].image}
-          style={{ height: "contain", objectFit: "contain" }}
-          onClick={() => openFullSizeImage(cards[currentIndex].image)} // Open full-size image on click
-        />{" "}
-        {/* Adjust the height */}
-        <button
-          style={{
-            position: "absolute",
-            top: "50%",
-            right: "0px",
-            transform: "translateY(-50%)",
-            border: "none",
-            backgroundColor: "transparent",
-            fontSize: "50px",
-            color: "white", // Change the color to orange
-            cursor: "pointer",
-          }}
-          onClick={handleNext}
-        >
-          {">"}
-        </button>
-      </Card>
+          {/* Set the width to 100% */}
+          <button
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "0px",
+              transform: "translateY(-50%)",
+              border: "none",
+              backgroundColor: "transparent",
+              fontSize: "50px",
+              color: "white", // Change the color to orange
+              cursor: "pointer",
+            }}
+            onClick={handlePrev}
+          >
+            {"<"}
+          </button>
+          <Card.Img
+            variant="top"
+            src={cards[currentIndex].image}
+            style={{ height: "contain", objectFit: "contain" }}
+            onClick={() => openFullSizeImage(cards[currentIndex].image)} // Open full-size image on click
+          />{" "}
+          {/* Adjust the height */}
+          <button
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "0px",
+              transform: "translateY(-50%)",
+              border: "none",
+              backgroundColor: "transparent",
+              fontSize: "50px",
+              color: "white", // Change the color to orange
+              cursor: "pointer",
+            }}
+            onClick={handleNext}
+          >
+            {">"}
+          </button>
+        </Card>
+      </div>
     </div>
   );
 };
