@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./navbar";
 import { Contact } from "./contact";
 import { Inicio } from "./presentacion";
+import { InstructionsComponent } from "./instructions";
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 
 import { Carousel } from "./card";
@@ -16,7 +17,8 @@ const Home = () => {
         <Routes>
           <Route path="/" element={<Inicio/>}/>
           <Route path="/Contacto" element={<Contact />} />
-          <Route path="/Galeria" element=""/>
+          <Route path="/Galeria" element={<InstructionsComponent/>}/>
+        
         </Routes>
       </BrowserRouter>
 
