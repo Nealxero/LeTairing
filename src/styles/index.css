@@ -12,21 +12,11 @@
 
 * {
   font-family: Sans-Serif;
-
-  
+  color: rgb(129, 70, 22);
 }
-#mainBody {
-  background-color: #ffa44d;
-  opacity: 0.8;
-  background-image: linear-gradient(135deg, #ffb274 25%, transparent 25%),
-    linear-gradient(225deg, #ffb274 25%, transparent 25%),
-    linear-gradient(45deg, #ffb274 25%, transparent 25%),
-    linear-gradient(315deg, #ffb274 25%, #ffa44d 25%);
-  background-position: 10px 0, 10px 0, 0 0, 0 0;
-  background-size: 20px 20px;
-  background-repeat: repeat;
-  color: rgb(255, 68, 0);
-  overflow-x: hidden;
- height: 100vh
-  ;
+body {
+  background-image: url("https://img.freepik.com/free-vector/set-ribbons-arrows-blackboard-style_23-2147775973.jpg?w=740&t=st=1709738219~exp=1709738819~hmac=a833cbd84e7d2e00266ce67d29794c367a24c4b064bcc525d3e4e8dfc3913d89");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  /* Add any other background properties as needed */
 }

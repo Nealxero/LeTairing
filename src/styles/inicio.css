@@ -1,15 +1,25 @@
 .stylish-text {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 36px;
-    color: #333;
-    text-align: left;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  color: #333;
+  text-align: left;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .stylish-text:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
+
+.image-container {
+    float: left;
+    width: 70%;
+  }
+  
+  .text-container {
+    float: right;
+    width: 30%;
+  }

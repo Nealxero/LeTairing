@@ -1,5 +1,4 @@
 import React from "react";
-
 import Card from "react-bootstrap/Card";
 import "../../styles/card.css";
 
@@ -28,15 +27,15 @@ export const Carousel = ({ cards }) => {
     <div>
       <h1 className="text-center mt-5">LetTairing</h1>
       <div id="CardCont">
-        {/* Adjust the max width and margin */}
         <Card
           style={{
-            width: "100%",
+            width: "100%", // Adjust the width of the card
+
+            margin: "0 auto",
             position: "relative",
             border: "5px solid brown",
           }}
         >
-          {/* Set the width to 100% */}
           <button
             style={{
               position: "absolute",
@@ -46,7 +45,7 @@ export const Carousel = ({ cards }) => {
               border: "none",
               backgroundColor: "transparent",
               fontSize: "50px",
-              color: "white", // Change the color to orange
+              color: "white",
               cursor: "pointer",
             }}
             onClick={handlePrev}
@@ -56,10 +55,9 @@ export const Carousel = ({ cards }) => {
           <Card.Img
             variant="top"
             src={cards[currentIndex].image}
-            style={{ height: "contain", objectFit: "contain" }}
-            onClick={() => openFullSizeImage(cards[currentIndex].image)} // Open full-size image on click
-          />{" "}
-          {/* Adjust the height */}
+            style={{ height: "contain", objectFit: "contain" }} // Adjust the height of the image
+            onClick={() => openFullSizeImage(cards[currentIndex].image)}
+          />
           <button
             style={{
               position: "absolute",
@@ -69,7 +67,7 @@ export const Carousel = ({ cards }) => {
               border: "none",
               backgroundColor: "transparent",
               fontSize: "50px",
-              color: "white", // Change the color to orange
+              color: "white",
               cursor: "pointer",
             }}
             onClick={handleNext}

@@ -4,7 +4,6 @@ import "../../styles/inicio.css";
 import { Carousel } from "./card";
 import * as images from "./images";
 
-
 export const Inicio = () => {
   const cards = [
     { title: "Card 1", content: "Content for Card 1", image: images.cafe },
@@ -15,11 +14,12 @@ export const Inicio = () => {
     { title: "Card 6", content: "Content Card 6", image: images.dolly },
   ];
 
-  
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-md-7">
+        <div className="col-md-8">
+          {" "}
+          {/* Adjusted column width */}
           <Carousel cards={cards} />
         </div>
         <div className="col d-flex align-items-center justify-content-center">
