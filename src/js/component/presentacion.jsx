@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../styles/inicio.css";
-import { Carousel } from "./card";
+import { CarouselComponent } from "./card";
 import * as images from "./images";
 
 export const Inicio = () => {
@@ -15,22 +15,15 @@ export const Inicio = () => {
   ];
 
   return (
-    <div className="container mt-5">
-      <div className="row">
-        <div className="col-md-8">
+    <div className="container">
+      
+        <div className="">
           {" "}
           {/* Adjusted column width */}
-          <Carousel cards={cards} />
+          <CarouselComponent cards={cards} />
         </div>
-        <div className="col d-flex align-items-center justify-content-center">
-          <div className="text-center">
-            <h1 className="stylish-text">
-              Descubre el mundo del Lettering y atrae a las personas con diseños
-              llamativos y personalizados, ideal para negocios abiertos de calle
-            </h1>
-          </div>
-        </div>
-      </div>
+        
+      
     </div>
   );
 };

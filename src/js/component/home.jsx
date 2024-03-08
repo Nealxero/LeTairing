@@ -3,6 +3,7 @@ import { Navbar } from "./navbar";
 import { Contact } from "./contact";
 import { Inicio } from "./presentacion";
 import { InstructionsComponent } from "./instructions";
+import { backgroundAni } from "./background";
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 
 import { Carousel } from "./card";
@@ -12,6 +13,7 @@ const Home = () => {
   
   return (
     <div className="text-center" id="mainBody">
+      <backgroundAni/>
       <BrowserRouter>
         <Navbar></Navbar>
         <Routes>

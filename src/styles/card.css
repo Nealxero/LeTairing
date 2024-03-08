@@ -1,14 +1,8 @@
-@media only screen and (max-width: 767px) {
-    #CardCont {
-      max-width: 60%;
-      margin: 0 auto;
-      position: relative;
-    }
-}
-@media only screen and (min-width:768px) {
-    #CardCont{ 
-        max-width: 40%;
-        margin: 0 auto;
-        position: relative;
-    }
+h1 {
+    color: #ff7b00;
+
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bolder;
+  border-color: black;
 }
