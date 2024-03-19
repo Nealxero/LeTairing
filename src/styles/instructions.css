@@ -1,6 +1,13 @@
+h1 {
+  font-size: 30px;
+  color: azure;
+  margin: 55px;
+}
+
 .instructions-container {
   display: flex;
   flex-direction: column;
+  color: azure;
 }
 
 .row {
@@ -11,10 +18,10 @@
 
 .left,
 .right {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
