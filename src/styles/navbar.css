@@ -16,7 +16,7 @@
   line-height: 0;
   color: #ff7b00 !important; 
   margin: 0 50px;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-style: italic;
   font-weight: bolder;
 }
@@ -100,16 +100,15 @@
   }
 
   .menu-logo {
+    font-size: 7vw;
     position: absolute;
+    
     left: 0;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
   }
 
-  .menu-logo img {
-    max-height: 30px;
-  }
-
+  
   .menu {
     position: absolute;
     box-sizing: border-box;
