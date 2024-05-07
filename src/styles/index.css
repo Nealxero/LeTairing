@@ -14,9 +14,18 @@
   font-family: Sans-Serif;
 }
 
+
+#mainBody {
+  min-height: 100vh;
+  overflow: hidden;
+}
 body {
   background-image: url("https://wallpapers.com/images/hd/high-resolution-wood-background-sk0k1ko8b0lxyyf4.jpg");
   background-size: cover; /* Ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   /* Add any other background properties as needed */
+  margin: 0;
+  padding: 0;
+
+
 }
