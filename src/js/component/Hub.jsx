@@ -3,7 +3,7 @@ import React from "react";
 import "../../styles/inicio.css";
 import { CarouselComponent } from "./card";
 import * as images from "./images";
-
+import { Contact } from "./contact";
 export const Inicio = () => {
   const cards = [
     { title: "Card 1", content: "Content for Card 1", image: images.cafe },
@@ -21,6 +21,7 @@ export const Inicio = () => {
           {" "}
           {/* Adjusted column width */}
           <CarouselComponent cards={cards} />
+          <Contact/>
         </div>
         
       

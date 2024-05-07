@@ -14,14 +14,13 @@
 
 .menu-logo {
   line-height: 0;
+  color: #ff7b00 !important; 
   margin: 0 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bolder;
 }
 
-.menu-logo img {
-  max-height: 40px;
-  max-width: 100px;
-  flex-shrink: 0;
-}
 
 .menu-container a {
   text-decoration: none;
@@ -53,7 +52,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #ff9400;
+  background: #ff7b00;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -114,12 +113,12 @@
   .menu {
     position: absolute;
     box-sizing: border-box;
-    width: 300px;
-    right: -300px;
+    width: 250px;
+    right: -250px;
     top: 0;
     margin: -20px;
-    padding: 50px;
-    background: #ff9400;
+    padding: 40px;
+    background: #ff7b00;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
     transform-origin: 0% 0%;

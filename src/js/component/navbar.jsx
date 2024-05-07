@@ -10,23 +10,18 @@ export const Navbar = () => {
       <span></span>
 
       <a href="/" className="menu-logo">
-        <img
-          src="https://wweb.dev/resources/navigation-generator/logo-placeholder.png"
-          alt="My Awesome Website"
-        />
+        <p>Evelyn</p>
       </a>
 
       <div className="menu">
         <ul></ul>
         <ul>
           <li>
-            <a href="/">inicio</a>
+            <a href="">Inicio</a>
           </li>
+         
           <li>
-            <a href="/Galeria">mi trabajo</a>
-          </li>
-          <li>
-            <a href="/Contacto">contactame</a>
+            <a href="#Contacto">Contactame</a>
           </li>
         </ul>
       </div>

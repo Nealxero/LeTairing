@@ -5,4 +5,56 @@ h1 {
   font-style: italic;
   font-weight: bolder;
   border-color: black;
+
+}.text-center {
+  text-align: center;
+  
+}
+
+.content-wrapper {
+  max-width: 800px; /* Ancho máximo del contenido */
+  margin: 0 auto; /* Centra horizontalmente el contenido */
+  margin-top: 20px;
+}
+
+.content-text {
+  color:#ff7b00;
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-bottom: 20px; /* Agrega un poco de espacio debajo del texto */
+}
+
+.content-form {
+  color:#ff7b00;
+  text-align: center; /* Centra el formulario */
+}
+
+
+@media (min-width: 768px) {
+  .content-wrapper {
+    flex-direction: row; /* Cambia la dirección de la flexbox en pantallas más grandes */
+    justify-content: center; /* Centra horizontalmente los elementos */
+  }
+
+  .content-text {
+    order: 1; /* Cambia el orden del texto a 1 para que aparezca primero */
+  }
+
+  .content-form {
+    order: 2; /* Cambia el orden del formulario a 2 para que aparezca después */
+  }
+}
+
+
+
+.custom-modal {
+  .modal-content {
+    border: 70px  ;
+    background-image: url("https://www.shutterstock.com/image-photo/walnut-wood-texture-600nw-524921872.jpg");
+    background-size: cover;
+  }
+
+
+  .modal-body {
+    max-height: calc(200vh - 220px); /* Adjust modal body height */
+  }
 }
