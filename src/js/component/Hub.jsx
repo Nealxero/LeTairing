@@ -12,6 +12,9 @@ export const Inicio = () => {
     { title: "Card 4", content: "Content Card 4", image: images.magia },
     { title: "Card 5", content: "Content Card 5", image: images.sandwich },
     { title: "Card 6", content: "Content Card 6", image: images.dolly },
+    { title: "Card 7", content : "Content Card 7", image: images.verano},
+    { title: "Card 8", content : "Content Card 8", image: images.panama},
+    { title: "Card 9", content : "Content Card 9", image: images.creer}
   ];
 
   return (
