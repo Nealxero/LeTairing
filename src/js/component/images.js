@@ -7,5 +7,6 @@ import dolly from "../../img/villaDolly.jpg";
 import panama from "../../img/panama.jpg"
 import verano from "../../img/verano.jpg"
 import creer from "../../img/creer.jpg"
+import magia2 from "../../img/magia2.jpg"
 
-export { cafe, desayuno, cocktails, magia, sandwich, dolly, panama, verano, creer };
+export { cafe, desayuno, cocktails, magia, sandwich, dolly, panama, verano, creer, magia2 };
