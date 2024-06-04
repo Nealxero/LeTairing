@@ -21,7 +21,6 @@
   font-weight: bolder;
 }
 
-
 .menu-container a {
   text-decoration: none;
   color: #ffc07f;
@@ -39,8 +38,8 @@
   margin: 0;
   position: absolute;
   cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
   -webkit-touch-callout: none;
 }
 
@@ -97,18 +96,20 @@
   .menu-container {
     flex-direction: column;
     align-items: flex-end;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+    width: 100%; 
   }
 
   .menu-logo {
     font-size: 7vw;
     position: absolute;
-    
     left: 0;
     top: 60%;
     transform: translateY(-50%);
   }
 
-  
   .menu {
     position: absolute;
     box-sizing: border-box;
@@ -119,7 +120,6 @@
     padding: 40px;
     background: #ff7b00;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
     transform-origin: 0% 0%;
     transform: translateX(0%);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
