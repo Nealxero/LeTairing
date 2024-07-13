@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "./navbar";
 import { Contact } from "./contact";
 import { Inicio } from "./Hub";
-
+import { Bocetos } from "./bocetos";
 
 import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
 
@@ -19,6 +19,7 @@ const Home = () => {
         <Routes>
           <Route path="/" element={<Inicio/>}/>
           <Route path="/Contacto" element={<Contact />} />
+          <Route path= "/Bocetos" element={<Bocetos/>}/>
         </Routes>
       </BrowserRouter>
 

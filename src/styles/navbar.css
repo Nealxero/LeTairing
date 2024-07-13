@@ -1,5 +1,5 @@
 .menu-container {
-  position: relative;
+  position: sticky;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
